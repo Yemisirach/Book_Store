@@ -67,6 +67,9 @@ $ git clone git@github.com:Yemisirach/Book_Store.gitd
 
 Give a ⭐️ if you like this project!
 
+## ⭐️ Show your support <a name="support"></a>
+- Microverse code reviewers are showing suport and encourage me 
+
 ## Submit an issue
 
 [Issue page](https://github.com/Yemisirach/Book_Store/issues)
