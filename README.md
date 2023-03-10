@@ -20,7 +20,7 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-## About the Project
+## About the Project [Book Store]
 
 This project will lay the foundations for your Bookstore website. You will **create the user interface** using React.
 ## Built With
