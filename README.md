@@ -23,12 +23,20 @@
 # 📖 [Book Store] <a name="about-project"></a>
 
 This project will lay the foundations for your Bookstore website. You will **create the user interface** using React.
-
 ## Built With
 
 - JavaScript
 - React
 
+### Key Features <a name="key-features"></a>
+
+> Describe between 1-3 key features of the application.
+
+-Fetch books
+-Navigation to different pages
+-Redux toolkit
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## Getting Started
 
 1. Open [dev branch](https://github.com/Yemisirach)
@@ -48,16 +56,9 @@ $ git clone git@github.com:Yemisirach/Book_Store.gitd
   $ npm run start # to start the website on a local server
 ```
 
-6. Install
+6. Enjoy 😎
 
-```sh
-npx create-react-app my-app --template redux
-```
-
-```sh
-npm install @reduxjs/toolkit react-redux
-```
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## Author 👱‍♂️
 
 👤 **Yemisirach Tamirat**
@@ -72,24 +73,30 @@ npm install @reduxjs/toolkit react-redux
 - [ ] **[React Multi Pages]**
 - [ ] **[Server Storage]**
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## Contributing
 
 Give a ⭐️ if you like this project!
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## ⭐️ Show your support <a name="support"></a>
+- Microverse code reviewers are showing suport and encourage me 
 
-- Microverse code reviewers are showing suport and encourage me
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## Submit an issue
 
 [Issue page](https://github.com/Yemisirach/Book_Store/issues)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## Acknowledgments
 
 - Microverse for amusing learning resources.
 - Microverse code reviewers.
 - You! 😄 yes you... for visiting.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](license) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
