@@ -29,12 +29,9 @@ This project will lay the foundations for your Bookstore website. You will **cre
 - React
 
 ### Key Features <a name="key-features"></a>
-
-> Describe between 1-3 key features of the application.
-
--Fetch books
--Navigation to different pages
--Redux toolkit
+- Fetch books 
+- Navigation to different pages
+- Redux toolkit
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## Getting Started
