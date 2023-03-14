@@ -28,6 +28,14 @@ This project will lay the foundations for your Bookstore website. You will **cre
 - JavaScript
 - React
 
+### Key Features <a name="key-features"></a>
+
+> Describe between 1-3 key features of the application.
+
+-Fetch books
+-Navigation to different pages
+-Redux toolkit
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## Getting Started
 
@@ -59,7 +67,7 @@ $ git clone git@github.com:Yemisirach/Book_Store.gitd
 - Twitter: [@Yemisirach](https://twitter.com/tamiratyemsrach)
 - LinkedIn: [@Yemisirach](https://www.linkedin.com/in/yemisirach)
 
-## 🔭 key Features <a name="future-features"></a>
+## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[CSS styling]**
 - [ ] **[React Multi Pages]**
