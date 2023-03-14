@@ -5,13 +5,6 @@ import Books from './pages/Books';
 import Categories from './pages/Categories';
 
 function App() {
-  //   if (isLoading) {
-  //     return (
-  //       <div className="loading">
-  //         <h1>Loading...</h1>
-  //       </div>
-  //     );
-  //   }
   return (
     <article className="main-router">
       <BrowserRouter>
