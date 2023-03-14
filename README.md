@@ -28,6 +28,7 @@ This project will lay the foundations for your Bookstore website. You will **cre
 - JavaScript
 - React
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## Getting Started
 
 1. Open [dev branch](https://github.com/Yemisirach)
@@ -49,6 +50,7 @@ $ git clone git@github.com:Yemisirach/Book_Store.gitd
 
 6. Enjoy 😎
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## Author 👱‍♂️
 
 👤 **Yemisirach Tamirat**
@@ -57,29 +59,36 @@ $ git clone git@github.com:Yemisirach/Book_Store.gitd
 - Twitter: [@Yemisirach](https://twitter.com/tamiratyemsrach)
 - LinkedIn: [@Yemisirach](https://www.linkedin.com/in/yemisirach)
 
-## 🔭 Future Features <a name="future-features"></a>
+## 🔭 key Features <a name="future-features"></a>
 
 - [ ] **[CSS styling]**
 - [ ] **[React Multi Pages]**
 - [ ] **[Server Storage]**
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## Contributing
 
 Give a ⭐️ if you like this project!
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## ⭐️ Show your support <a name="support"></a>
 - Microverse code reviewers are showing suport and encourage me 
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## Submit an issue
 
 [Issue page](https://github.com/Yemisirach/Book_Store/issues)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## Acknowledgments
 
 - Microverse for amusing learning resources.
 - Microverse code reviewers.
 - You! 😄 yes you... for visiting.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](license) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
