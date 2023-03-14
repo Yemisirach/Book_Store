@@ -23,6 +23,7 @@
 # 📖 [Book Store] <a name="about-project"></a>
 
 This project will lay the foundations for your Bookstore website. You will **create the user interface** using React.
+
 ## Built With
 
 - JavaScript
@@ -47,7 +48,15 @@ $ git clone git@github.com:Yemisirach/Book_Store.gitd
   $ npm run start # to start the website on a local server
 ```
 
-6. Enjoy 😎
+6. Install
+
+```sh
+npx create-react-app my-app --template redux
+```
+
+```sh
+npm install @reduxjs/toolkit react-redux
+```
 
 ## Author 👱‍♂️
 
@@ -68,7 +77,8 @@ $ git clone git@github.com:Yemisirach/Book_Store.gitd
 Give a ⭐️ if you like this project!
 
 ## ⭐️ Show your support <a name="support"></a>
-- Microverse code reviewers are showing suport and encourage me 
+
+- Microverse code reviewers are showing suport and encourage me
 
 ## Submit an issue
 
