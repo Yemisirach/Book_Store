@@ -8,6 +8,7 @@ function Book({ title, author }) {
         <tr>
           <li>{title}</li>
           <li>{author}</li>
+          <button type="submit">Remove</button>
         </tr>
       </table>
     </div>
