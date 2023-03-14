@@ -1,8 +1,8 @@
-import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import NavBar from "./components/NavBar";
-import Books from "./pages/Books";
-import Categories from "./pages/Categories";
+import React from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import NavBar from './components/NavBar';
+import Books from './pages/Books';
+import Categories from './pages/Categories';
 
 function App() {
   //   if (isLoading) {
