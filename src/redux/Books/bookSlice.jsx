@@ -28,25 +28,8 @@ const bookSlice = createSlice({
   initialState,
 
   reducers: {
-    // addBook: (state, action) => {
-    //   state.books = [
-    //     ...state.books,
-    //     {
-    //       id: Math.floor(Math.random() * 100),
-    //       title: action.payload.title,
-    //       author: action.payload.author,
-    //     },
-    //   ];
-    // },
     addBook: (state, action) => {
-      state.books.push([
-        ...state.books,
-        {
-          id: Math.floor(Math.random() * 100),
-          title: action.payload.title,
-          author: action.payload.author,
-        },
-      ]);
+      state.books.push(action.payload);
     },
 
     removeBook: (state, action) => ({

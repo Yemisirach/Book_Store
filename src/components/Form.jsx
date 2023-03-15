@@ -19,7 +19,8 @@ function Form() {
       item_id: `item${booksArray.length + 1}`,
     }));
   };
-  const handleAdd = () => {
+  const handleAdd = (e) => {
+    e.preventDefault();
     dispatch(addBook(state));
   };
 
@@ -30,14 +31,14 @@ function Form() {
           type="text"
           id="title"
           placeholder="Book Title"
-          onClick={handleChange}
+          onChange={handleChange}
           required
         />
         <input
           type="text"
           id="author"
           placeholder="Author"
-          onClick={handleChange}
+          onChange={handleChange}
           required
         />
         <button type="submit" onClick={handleAdd}>
