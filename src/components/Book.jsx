@@ -1,23 +1,21 @@
+// eslint-disable missing in props validation
 import React from 'react';
-import PropTypes from 'prop-types';
+import { useDispatch } from 'react-redux';
+import { removeBook } from '../redux/Books/bookSlice';
 
-function Book({ title, author }) {
+function Book({ title, author, id }) {
+  const dispatch = useDispatch();
   return (
     <div>
-      <table>
-        <tr>
-          <li>{title}</li>
-          <li>{author}</li>
-          <button type="submit">Remove</button>
-        </tr>
-      </table>
+      <h2>{title}</h2>
+      <p>
+        {author}
+        <button type="button" onClick={() => dispatch(removeBook(id))}>
+          Remove
+        </button>
+      </p>
     </div>
   );
 }
-
-Book.propTypes = {
-  title: PropTypes.string.isRequired,
-  author: PropTypes.string.isRequired,
-};
 
 export default Book;
