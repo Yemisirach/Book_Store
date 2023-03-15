@@ -34,26 +34,74 @@ This project will lay the foundations for your Bookstore website. You will **cre
 - Redux toolkit
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-## Getting Started
 
-1. Open [dev branch](https://github.com/Yemisirach)
-2. Open VSCode or terminal and navigate to the folder where you would like to clone the project.
-3. Type "pwd" to see your working directory.
-4. [clone repository](git@github.com:Yemisirach/Book_Store.git)
+## 🚀 Live Demo <a name="live_demo"></a>
+<p>(<a href="#readme-top">comming soon</a>)</p>
 
-```bash
-$ git clone git@github.com:Yemisirach/Book_Store.gitd
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need to run:
+
+
+```sh
+ npm install
 ```
 
-5. Run
 
-```bash
-  $ npm install # to install required packages
-  $ npm creat-react-app # to to creat react app
-  $ npm run start # to start the website on a local server
+### Setup
+
+Clone this repository to your desired folder:
+
+
+```sh
+  cd todolist
+  git clone git@github.com:Yemisirach/Book_Store.git
 ```
 
-6. Enjoy 😎
+### Install
+
+Install this project with:
+
+
+
+```sh
+  cd todolist
+  node version 16 or higher
+```
+
+
+### Usage
+
+To run the project, execute the following command:
+
+
+```
+  npm start
+```
+
+### Testing
+
+To run the project, execute the following command:
+
+```
+  npm run test
+```
+
+### Deployment
+
+You can deploy this project using:
+
+- GitHub Pages
+- Netlify
+- Heroku
+- Cyclic
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## Author 👱‍♂️
