@@ -25,7 +25,15 @@
     "no-shadow": "off",
     "react/prop-types": "off",
     "no-param-reassign": 0,
-    "import/prefer-default-export": 0
+    "import/prefer-default-export": 0,
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": ["**/*.stories.*", "**/.storybook/**/*.*"],
+        "peerDependencies": true
+      }
+    ]
   },
+
   "ignorePatterns": ["dist/", "build/"]
 }
