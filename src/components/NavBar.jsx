@@ -5,12 +5,14 @@ function NavBar() {
   return (
     <div>
       <nav>
-        <h1>Book Store</h1>
-        <ul>
-          <li>
+        <ul className="navBar">
+          <li className="Bookstore-CMS ">
+            <Link to="/">Bookstore CMS </Link>
+          </li>
+          <li className="book-link">
             <Link to="/">Books</Link>
           </li>
-          <li>
+          <li className="book-link">
             <Link to="/categories">Categories</Link>
           </li>
         </ul>
