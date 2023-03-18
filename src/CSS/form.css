@@ -1,0 +1,73 @@
+.line {
+  width: 75rem;
+  height: 0.125rem;
+  margin: 2.5rem 0.063rem 1.813rem 0;
+  border: solid 1px var(--white);
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  width: 45rem;
+  margin-left: 6rem;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+#title,
+#author {
+  width: 15rem;
+  height: 2rem;
+  padding: 0.5rem;
+  font-family: Montserrat, sans-serif;
+  font-size: 1.25rem;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.18px;
+  color: #888;
+}
+
+p {
+  color: rgb(96, 96, 206);
+}
+
+.form-btn-submit a {
+  width: 8.938rem;
+  height: 1.125rem;
+  font-size: 0.813rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: var(--white-two);
+}
+
+input {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 2rem 2rem 0;
+  width: 15rem;
+  height: 2rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+button {
+  font-family: RobotoSlab, sans-serif;
+  padding: 0.5rem;
+  border-radius: 6px;
+  height: 2rem;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.18px;
+  color: #0c0c0c;
+  font-weight: bold;
+}
+
+li {
+  list-style: none;
+}

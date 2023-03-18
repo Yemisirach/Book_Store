@@ -1,8 +1,8 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import PropTypes from 'prop-types';
-// import { deleteBook } from "./Api";
 import { booksActions, deleteBook } from '../redux/Books/bookSlice';
+import style from '../CSS/graphic.module.css';
 
 const Book = ({ item }) => {
   const { title, author } = item;
@@ -13,14 +13,49 @@ const Book = ({ item }) => {
     dispatch(deleteBook(item.item_id));
   };
   return (
-    <div>
-      <h2>{title}</h2>
-      <p>
-        {author}
-        <button type="button" onClick={removeBookHandler}>
-          Remove
-        </button>
-      </p>
+    <div className="Book-Wrapper">
+      <div className="chapter-content update">
+        <h3>Current Chapter</h3>
+        <p>Chapter 17</p>
+        <button type="submit">UPDATE PROGRESS</button>
+      </div>
+      <div className="circle-container">
+        <div className={style.circle}>
+          <div className={style.progress} />
+        </div>
+        <div className="content">
+          64%
+          {' '}
+          <br />
+          <span className="subtitle">completed</span>
+        </div>
+      </div>
+      <div className="divider" />
+      <div className="book-list">
+        <h2>{title}</h2>
+        <p className="center">
+          <span className="author-span">{author}</span>
+          <p className="coments">
+            <div />
+            {' '}
+            <a type="submit" className="button-comment" href="/">
+              comment
+            </a>
+            <div className="divider_separator" />
+            <button
+              className="removebtn"
+              type="button"
+              onClick={removeBookHandler}
+            >
+              Remove
+            </button>
+            <div className="divider_separator_2" />
+            <a type="submit" className="button-edit" href="/">
+              Edit
+            </a>
+          </p>
+        </p>
+      </div>
     </div>
   );
 };
